@@ -1,0 +1,310 @@
+Domain: C++
+What does the 'cin' object in C++ do?
+Reads data from the keyboard.
+Prints data to the screen.
+Performs mathematical calculations.
+Manages memory allocation.
+1
+Which C++ keyword is used to define a class?
+class
+define
+struct
+void
+1
+What is the purpose of the 'const' keyword in C++?
+It defines a constant integer.
+It marks a function as a constructor.
+It specifies a constant variable.
+It is used for loop control.
+3
+How are C++ pointers different from C++ references?
+Pointers are used for dynamic memory allocation, while references are not.
+Pointers cannot be used as function parameters, while references can.
+References are used for dynamic memory allocation, while pointers are not.
+Pointers and references are essentially the same in C++.
+1
+What is the C++ standard library function for dynamic memory allocation?
+malloc
+alloc
+new
+allocate
+3
+Domain: Python
+Which of the following is a Python data type?
+list
+if
+switch
+case
+1
+In Python, how do you define a function?
+func
+function
+define
+def
+4
+What does the 'print' function in Python do?
+Read user input.
+Calculate mathematical expressions.
+Display output to the console.
+Create a list.
+3
+In Python, which keyword is used to create a loop?
+loop
+for
+repeat
+while
+2
+Which module in Python is used for working with regular expressions?
+re
+regex
+string
+match
+1
+Domain: HTML
+What does HTML stand for?
+Hyper Text Markup Language
+High Technology Modern Language
+Hyperlink and Text Markup Language
+Hyper Transfer Markup Language
+1
+Which HTML tag is used for creating a hyperlink?
+<a>
+<h>
+<link>
+<p>
+1
+What is the correct HTML element for inserting a line break?
+<lb>
+<linebreak>
+<br>
+<break>
+3
+In HTML, which attribute is used to define the character encoding for the document?
+charset
+encoding
+charcode
+doc-encoding
+1
+Which HTML tag is used for creating an unordered list?
+<ul>
+<ol>
+<li>
+<list>
+1
+Domain: CSS
+What does CSS stand for?
+Cascading Style Sheet
+Computer Style Sheet
+Colorful Style Sheet
+Creative Style Sheet
+1
+In CSS, how can you select elements with a specific class?
+.class
+#class
+class()
+class{}
+1
+Which property in CSS is used to set the background color of an element?
+background-color
+color
+text-background
+bg-color
+1
+In CSS, what does the 'margin' property control?
+The width of an element.
+The space between the content and the border.
+The font size of the text.
+The background color of an element.
+2
+What is the correct CSS syntax for specifying a font family?
+font-family: Arial, Helvetica, sans-serif;
+font: Arial, Helvetica, sans-serif;
+family-font: Arial, Helvetica, sans-serif;
+font-type: Arial, Helvetica, sans-serif;
+1
+Domain: JavaScript
+What is the primary use of JavaScript in web development?
+Styling web pages.
+Creating server-side applications.
+Enhancing the functionality of web pages.
+Managing databases.
+3
+Which keyword is used to declare variables in JavaScript?
+var
+int
+string
+declare
+1
+How can you include external JavaScript code in an HTML file?
+Using the <js> tag.
+Using the <script> tag with the 'src' attribute.
+Using the <javascript> tag.
+Using the <include> tag.
+2
+In JavaScript, what is the 'DOM' an abbreviation for?
+Document Object Model
+Data Object Model
+Design Object Model
+Digital Object Model
+1
+Which statement is used to exit a loop in JavaScript?
+end
+break
+stop
+exit
+2
+Domain: Dart
+What is Dart primarily used for?
+Database management.
+Mobile app development.
+Game development.
+Machine learning.
+2
+In Dart, which keyword is used to declare a variable that won't change?
+final
+var
+let
+const
+4
+How do you create a function in Dart?
+def
+function
+func
+void
+4
+What is the purpose of 'async' and 'await' in Dart?
+To define a constructor.
+To handle exceptions.
+To work with asynchronous code.
+To create classes.
+3
+In Dart, which collection type is ordered and can contain duplicate items?
+List
+Set
+Map
+Tuple
+1
+Domain: SQL
+What does SQL stand for?
+Structured Query Language
+Simple Query Language
+System Query Language
+Structured Question Language
+1
+Which SQL statement is used to retrieve data from a database?
+SELECT
+RETRIEVE
+OPEN
+SEARCH
+1
+In SQL, which keyword is used to add data to a table?
+ADD
+INSERT
+CREATE
+UPDATE
+2
+What is the purpose of the 'WHERE' clause in an SQL query?
+To specify the table name.
+To filter rows based on a condition.
+To join multiple tables.
+To order the results.
+2
+Which SQL command is used to remove a table from a database?
+REMOVE TABLE
+DELETE TABLE
+DROP TABLE
+ERASE TABLE
+3
+Domain: Java
+Which programming language is Java based on?
+JavaScript
+Python
+C++
+Oak
+4
+In Java, what is the 'main' method used for?
+Declaring variables.
+Defining classes.
+Entry point of a Java program.
+Creating objects.
+3
+How do you declare a variable in Java?
+var
+variable
+int
+declare
+1
+What is Java's primary application in the software industry?
+Mobile app development.
+Web development.
+Database management.
+Enterprise software development.
+4
+Which Java keyword is used to create a new instance of a class?
+new
+create
+instance
+object
+1
+Domain: C
+What does the 'printf' function in C do?
+Read user input.
+Print data to the screen.
+Calculate mathematical expressions.
+Create a list.
+2
+Which type of loop in C is ideal for situations where you don't know beforehand how many times the loop needs to be executed?
+for loop
+while loop
+do-while loop
+infinite loop
+2
+What does the 'sizeof' operator in C return?
+The size of an array.
+The size of a structure.
+The size of a variable.
+The size of a string.
+3
+In C, which keyword is used to declare a function?
+func
+method
+define
+int
+4
+What is the purpose of the 'break' statement in C?
+To end the program.
+To exit a loop or switch statement.
+To print a line of text.
+To declare a variable.
+2
+Domain: C#
+Which programming language is C# primarily associated with?
+Java
+C++
+C#
+C-Sharp
+3
+In C#, what is the purpose of the 'using' directive?
+To define a class.
+To import external libraries.
+To declare a variable.
+To create an object.
+2
+How do you declare a variable in C#?
+var
+variable
+int
+declare
+1
+Which type of class in C# cannot be instantiated and is typically used as a base class for other classes?
+Abstract class
+Sealed class
+Static class
+Public class
+1
+What is C#'s primary application in the software industry?
+Mobile app development.
+Web development.
+Game development.
+Enterprise software development.
+4

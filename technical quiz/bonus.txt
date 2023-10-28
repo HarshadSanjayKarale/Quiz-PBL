@@ -1,0 +1,60 @@
+What is the purpose of the "if" statement in programming?
+To print text on the screen
+To define a function
+To make decisions based on conditions
+To declare a variable
+3
+Which programming language is known for its high performance and is often used for game development?
+JavaScript
+Python
+C++
+Dart
+3
+What does HTML stand for in web development?
+HyperText Markup Language
+High-level Text Markup Language
+Home Tool Markup Language
+Hyper Transfer Markup Language
+1
+Which of the following is not a valid CSS property?
+background-color
+font-size
+text-color
+border-width
+2
+In Python, which data structure is used to store an ordered collection of items?
+List
+Set
+Dictionary
+Tuple
+0
+Which programming language is often used for building mobile applications, especially for iOS development?
+Java
+JavaScript
+Swift
+C++
+2
+What is the primary purpose of SQL in database management?
+Defining the structure of a web page
+Managing data in relational databases
+Creating animations in web development
+Designing user interfaces
+1
+In Java, which keyword is used to define a class?
+class
+int
+function
+declare
+0
+What is the primary use of a pointer in the C programming language?
+To declare a constant
+To define a variable
+To store the address of another variable
+To execute a loop
+2
+Which programming language is often used for Windows desktop application development?
+Python
+JavaScript
+C++
+Ruby
+2
