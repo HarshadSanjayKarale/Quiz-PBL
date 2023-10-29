@@ -52,11 +52,11 @@ public:
     }
 
     string categorizeUser(int score) {
-        if (score >= 8) {
+        if (score >= 4) {
             return "ACE";
-        } else if (score >= 6) {
+        } else if (score >= 3) {
             return "Expert";
-        } else if (score >= 4) {
+        } else if (score >= 2) {
             return "Intermediate";
         } else {
             return "Beginner";
