@@ -51,7 +51,20 @@ public:
         questions.push_back(question);
     }
 
+    string categorizeUser(int score) {
+        if (score >= 8) {
+            return "ACE";
+        } else if (score >= 6) {
+            return "Expert";
+        } else if (score >= 4) {
+            return "Intermediate";
+        } else {
+            return "Beginner";
+        }
+    }
+
     void conductQuiz() {
+
         int score = 0;
         cout << "Domain: " << name << endl;
         for (int i = 0; i < questions.size(); i++) {
@@ -93,6 +106,8 @@ public:
 
         // Print the grand total points and the number of domains covered
         cout << "Grand Total Points: " << bonusPoints << endl;
+        string userCategory = categorizeUser(bonusPoints);
+        cout << "You earned a Badge : " << userCategory <<endl; 
         cout << "Number of Domains Covered: " << num << endl;
     }
 
@@ -215,6 +230,7 @@ int main() {
         }
 
         if (domainChoice >= 1 && domainChoice <= domains.size()) {
+            Domain::num++;
             Domain& selectedDomain = domains[domainChoice - 1];
             selectedDomain.conductQuiz();
             selectedDomain.askBonusQuestion(bonusQuestions);
