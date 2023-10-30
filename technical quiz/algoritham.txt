@@ -1,0 +1,48 @@
+1. Start
+2. Seed the random number generator with the current time.
+3. Open "questions.txt" and "bonus.txt" for reading.
+4. Check if the files were successfully opened. If not, display an error message and exit the program.
+5. Initialize variables and data structures:
+   - `globalGrandTotalScore` is set to 0.
+   - `domains` is an empty vector of `Domain` objects.
+   - `bonusQuestions` is an empty vector of `BonusQuestion` objects.
+6. Read bonus questions from "bonus.txt":
+   - Read question text.
+   - Read four answer options.
+   - Read the correct option.
+   - Create a `BonusQuestion` object and add it to the `bonusQuestions` vector.
+7. Read regular quiz questions from "questions.txt":
+   - Check if a line starts with "Domain: " to identify the domain name.
+   - Read question text.
+   - Read four answer options.
+   - Read the correct option.
+   - Create a `Question` object and add it to the appropriate `Domain` in the `domains` vector.
+8. Close the input files ("questions.txt" and "bonus.txt").
+9. Display a welcome message for the quiz.
+10. Enter a loop for domain selection:
+    - Display a menu of available domains and an option to exit.
+    - Prompt the user to choose a domain (1 to the number of available domains) or exit (0).
+    - If the user chooses to exit, display a goodbye message and exit the program.
+11. If the user selects a domain:
+    - Increment the `Domain::num` counter.
+    - Get the selected `Domain` object based on the user's choice.
+    - Conduct the regular quiz:
+      - Display the domain name.
+      - Iterate through the questions in the domain:
+        - Display the question text.
+        - Shuffle answer options.
+        - Display the shuffled options.
+        - Prompt the user to enter their choice.
+        - Check if the answer is correct and update the score.
+      - Categorize the user's performance.
+      - Award bonus points if the user's score is 4 or higher.
+      - Update the global grand total score.
+      - Display the grand total points and the number of domains covered.
+    - Ask a bonus question if bonus points are available:
+      - Display the bonus question and shuffled options.
+      - Prompt the user to enter their choice for the bonus question.
+      - Check if the bonus answer is correct and update bonus points.
+      - Update the global grand total score.
+      - Display the grand total points and the number of domains covered.
+12. Repeat the loop for domain selection until the user chooses to exit.
+13. End of the program.
