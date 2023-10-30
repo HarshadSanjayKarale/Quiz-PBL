@@ -9,6 +9,8 @@
 
 using namespace std;
 
+int globalGrandTotalScore = 0; // Global variable for the grand total score
+
 class Question {
 public:
     string text;
@@ -51,6 +53,18 @@ public:
         questions.push_back(question);
     }
 
+    string categorizeUser(int score) {
+        if (score >= 4) {
+            return "ACE";
+        } else if (score >= 3) {
+            return "Expert";
+        } else if (score >= 2) {
+            return "Intermediate";
+        } else {
+            return "Beginner";
+        }
+    }
+
     void conductQuiz() {
         int score = 0;
         cout << "Domain: " << name << endl;
@@ -86,13 +100,22 @@ public:
         }
         cout << endl << endl;
 
+        string userCategory = categorizeUser(score);
+
         if (score >= 4) {
             bonusPoints = score;
             cout << "Congratulations! You have earned " << bonusPoints << " bonus point(s)." << endl;
+            globalGrandTotalScore += bonusPoints; // Update the globalGrandTotalScore
+        } else {
+            bonusPoints = 0; // Set bonusPoints to 0 if the user didn't score 4 or more points.
         }
 
+        // Calculate the grand total points
+        int grandTotalPoints = globalGrandTotalScore;
+
         // Print the grand total points and the number of domains covered
-        cout << "Grand Total Points: " << bonusPoints << endl;
+        cout << "Grand Total Points: " << grandTotalPoints << endl;
+        cout << "You earned a Badge : " << userCategory << endl;
         cout << "Number of Domains Covered: " << num << endl;
     }
 
@@ -125,13 +148,14 @@ public:
 
             if (adjustedChoice == choice) {
                 cout << "Correct! You earned the bonus point." << endl;
-                bonusPoints++;
+                bonusPoints++; // Update the bonusPoints when the answer is correct.
+                globalGrandTotalScore++; // Update the globalGrandTotalScore for the bonus point
             } else {
                 cout << "Incorrect. The correct answer is: " << adjustedChoice << ". " << bonusQuestion.options[bonusQuestion.correctOption] << endl;
             }
 
             // Print the grand total points and the number of domains covered
-            cout << "Grand Total Points: " << bonusPoints << endl;
+            cout << "Grand Total Points: " << globalGrandTotalScore << endl;
             cout << "Number of Domains Covered: " << num << endl;
         }
     }
@@ -215,6 +239,7 @@ int main() {
         }
 
         if (domainChoice >= 1 && domainChoice <= domains.size()) {
+            Domain::num++;
             Domain& selectedDomain = domains[domainChoice - 1];
             selectedDomain.conductQuiz();
             selectedDomain.askBonusQuestion(bonusQuestions);
