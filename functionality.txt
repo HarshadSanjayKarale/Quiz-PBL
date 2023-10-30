@@ -1,0 +1,52 @@
+Certainly! Here are 50 key functionalities used in the project:
+
+1. **Quiz Domain Selection**: Users can choose a domain for the quiz from a menu.
+2. **Conducting Quizzes**: The program conducts quizzes with multiple questions in the selected domain.
+3. **Question Presentation**: Questions are displayed to the user, one at a time.
+4. **Answer Evaluation**: The program checks the user's answers for correctness.
+5. **Scoring**: The program calculates and displays the user's score in the quiz.
+6. **Bonus Questions**: Users can earn bonus points for good performance in the main quiz.
+7. **Bonus Question Presentation**: The program asks bonus questions for eligible users.
+8. **Bonus Answer Evaluation**: The program checks the user's bonus question answers for correctness.
+9. **Bonus Point Award**: Users can earn additional points for answering bonus questions correctly.
+10. **Global Score Tracking**: The program keeps track of a global total score across domains.
+11. **User Performance Categorization**: The program categorizes the user's performance as "ACE," "Expert," "Intermediate," or "Beginner" based on their score.
+12. **Reading Questions from Files**: Questions and bonus questions are read from external text files.
+13. **Shuffling Answer Options**: The program shuffles answer options for each question to avoid predictability.
+14. **Error Handling for File Operations**: The program handles errors related to opening and reading from input files.
+15. **Object-Oriented Programming**: The code is organized using classes to encapsulate data and behavior.
+16. **Looping for User Interaction**: The program uses loops for user interaction, allowing the user to select domains and exit the quiz.
+17. **Random Number Generation**: The `srand` function seeds the random number generator to create unpredictable outcomes.
+18. **Dynamic Data Storage**: Questions and bonus questions are stored in dynamic data structures like vectors.
+19. **Input Validation**: The program validates user inputs, ensuring they are within the expected range.
+20. **User-Friendly Menu**: The program provides a user-friendly menu for domain selection.
+21. **Displaying Welcome and Goodbye Messages**: Welcoming and farewell messages are displayed to the user.
+22. **Dynamic Question and Domain Creation**: Questions and domains are created dynamically as data is read from files.
+23. **Proper C++ Header Inclusion**: The code includes necessary C++ standard library headers.
+24. **String Manipulation**: String operations are used to process domain names and question text.
+25. **Catching Exceptions**: The program uses `try` and `catch` to handle exceptions, such as conversion errors.
+26. **Clear Screen or Separator Display**: The code may clear the screen or display separators for a more organized user interface.
+27. **Static Variable Usage**: A static variable is used to track the number of domains.
+28. **Bonus Points Threshold**: Users must score a minimum to be eligible for bonus questions.
+29. **Exit Option**: Users can exit the quiz at any time.
+30. **Cumulative Score Display**: The program shows the cumulative score and the number of domains covered.
+31. **Randomization for Bonus Question Options**: Bonus question answer options are shuffled for unpredictability.
+32. **Feedback for Correct Answers**: The program provides feedback when users answer questions correctly.
+33. **Feedback for Incorrect Answers**: Users receive feedback and the correct answer for incorrectly answered questions.
+34. **File I/O for Bonus Questions**: The program reads bonus questions from an external file ("bonus.txt").
+35. **File I/O for Quiz Questions**: The program reads quiz questions from an external file ("questions.txt").
+36. **Bonus Question Eligibility**: Users are eligible for bonus questions based on their main quiz performance.
+37. **User Score Display**: The program displays the user's score after each question in the main quiz.
+38. **Quiz Progress Tracking**: The program tracks the progress of the quiz, indicating the current question number.
+39. **Detailed User Feedback**: Detailed feedback on each question is provided, including the correct answer.
+40. **Total Quiz Time Tracking**: The program may track the time taken by the user to complete the quiz.
+41. **Multi-Domain Support**: Users can select from multiple domains for their quizzes.
+42. **Bonus Question Availability**: The program checks if bonus questions are available before asking them.
+43. **Conditional Bonus Points**: Users earn bonus points based on their performance in the main quiz.
+44. **Full Quiz Recap**: A recap of the main quiz, including the user's score and feedback, is provided at the end.
+45. **Score Reset for New Domains**: Users may start with a score of zero when entering a new domain.
+46. **Cumulative Badge Display**: The program displays badges earned across multiple domains.
+47. **User's Progress Visualization**: The program may provide a visual representation of the user's progress in the quiz.
+48. **Multiple User Profiles**: Support for multiple users or profiles with distinct scores and progress tracking.
+49. **Difficulty Levels**: Questions of different difficulty levels may be included, and users can select a difficulty level.
+50. **Multi-Language Support**: The program may be extended to support multiple languages for questions and feedback.
